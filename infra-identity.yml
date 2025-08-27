@@ -3,6 +3,6 @@
     "kafka":
       "consumer-group":"infra-identity"
       "topics":
-        "registration-requested": ${messaging.events.registration-requested}
-        "registration-submitted": ${messaging.events.registration-requested}
-        "registration-administered": ${messaging.events.registration-administered}
+        "registration-requested": ${events.registration-requested}
+        "registration-submitted": ${events.registration-requested}
+        "registration-administered": ${events.registration-administered}
