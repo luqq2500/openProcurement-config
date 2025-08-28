@@ -1,11 +1,12 @@
-"infra-identity":
-  "messaging":
-    "topics":
-          "registration-requested": ${events.registration-requested}
-          "registration-submitted": ${events.registration-submitted}
-          "registration-administered": ${events.registration-administered}
-    "kafka":
-      "consumer-group":"infra-identity"
+infra-identity:
+  messaging:
+    topics:
+          registration-requested: ${events.registration-requested}
+          registration-submitted: ${events.registration-submitted}
+          registration-administered: ${events.registration-administered}
+    kafka:
+      consumer-group:infra-identity
+
 
 
 
