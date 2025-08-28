@@ -5,7 +5,8 @@ infra-administration:
           registration-submitted: ${events.registration-submitted}
           registration-administered: ${events.registration-administered}
     kafka:
-      consumer-group:infra-admin
+      consumer-group: infra-admin
+
 
 
 
