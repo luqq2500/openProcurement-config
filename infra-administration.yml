@@ -1,11 +1,12 @@
 infra-administration:
   messaging:
     topics:
-          registration-requested: ${events.registration-requested}
-          registration-submitted: ${events.registration-submitted}
-          registration-administered: ${events.registration-administered}
+          registration-requested: ${messaging.topics.registration-requested}
+          registration-submitted: ${messaging.topics.registration-submitted}
+          registration-administered: ${messaging.topics.registration-administered}
     kafka:
       consumer-group: infra-admin
+
 
 
 
